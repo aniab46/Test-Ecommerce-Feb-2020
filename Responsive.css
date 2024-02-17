@@ -1,0 +1,12 @@
+@media screen and (max-width:400px){
+.manuBar ul li:last-child{float: none;}
+.manuHead{}
+}
+@media screen and (max-width:768px){
+
+.searchContainer input{opacity: 100%;width: 85%;}
+.searchContainer button{border-radius: 0 20px 20px 0;}
+ul.bjqs-controls.v-centered li.bjqs-next a:hover{background-color: #0ce66e;}
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover{background-color: #0ce66e;}
+.productDetail a{background-color: #97f03e;}
+}

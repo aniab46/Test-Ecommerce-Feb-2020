@@ -1,0 +1,151 @@
+*{margin: 0;padding: 0;}
+.logoArea{background: linear-gradient(#56e6c2,#40b4d14b); position: relative;}
+.logo{}
+.logo a{display: flex;justify-content: center;}
+.logo img{width: 18vw;height: auto;cursor: pointer;}
+.logoText{display: flex;justify-content: center;}
+.logo p{font-size: 16px;color: #646464; font-weight: 600;text-shadow: 1px 1px black;}
+.searchContainer{display: flex;justify-content: center;align-items: center;margin: 20px 0;}
+.searchContainer input{padding: 6px;font-size: 17px;color: rgb(12, 12, 12); border: none;background-color: #23df87;border-radius:20px 0 0 20px;opacity: 0%;outline: none;transition: .2s;width: 0px;}
+.searchContainer button{float: right;padding: 6px 10px;background-color: #bd59db69;font-size: 17px;border: none;cursor: pointer;border-radius: 50%;}
+.searchContainer:hover  input{opacity: 100%;width: 200px;}
+.searchContainer:hover  button{border-radius: 0 20px 20px 0;}
+
+.searchContainer button:focus{outline: none;opacity: 50%;}
+.searchContainer input:active{border-radius: 20px 0 0 20px;outline: brown;}
+.manu{position: sticky;position: -webkit-sticky; top: -5px;z-index: 99;}
+.manuHead{background-color: #6dc8ec; border-radius: 55px/45px 0 35px 0;}
+.manuBar{}
+.manuBar ul{list-style: none;margin: 0;padding: 0;}
+.manuBar ul li{display: inline-block;padding: 10px 20px;}
+
+.manuBar ul li a{text-decoration: none;color: rgb(20, 3, 20);font-weight: 600;}
+.manuBar ul li:last-child{float: right;}
+.manuBar ul li a span{color: white;background-color: red;border-radius: 50%;padding: 1px 7px;}
+.manuBar ul li a img{width: 30px;height: 30px;display: block;transform: rotate(0deg);transition: .5s;box-shadow: 1px 2px 5px 1px #000000;border-radius: 50%;}
+.manuBar ul li a:hover{color: #127a72;}
+.manuBar ul li a:hover img{transform: rotate(90deg);}
+.manuBar ul li a:active{color: brown;}
+.sliderArea{}
+.sliderBar h1{font-size: 50px;text-align: center;font-weight: 900;text-shadow: 2px 2px black;}
+.slider{border: 10px solid #0ce66e;border-radius:0px 60px ;}
+.letestTitle h1{font-size: 50px;text-align: center;font-weight: 300;text-shadow: 1px 1px black;}
+.featured{}
+.featuredImage{position: relative;}
+.featuredImage img{width: 100%;height: auto;transition: .5s;}
+.buttonDiv button{position: absolute;left: 50%;bottom: 50%;padding: 7px 20px;background-color: #64d2e0;font-weight: 600;border: none;border-radius: 7px;box-shadow: 1px 1px 5px 1px black;opacity: 50%;transition: .5s}
+.featuredImage:hover img{opacity: 50%;width: 130%;}
+.featuredImage:hover + .buttonDiv button{opacity: 100%;}
+.productDetail{margin-bottom: 10px;}
+.productDetail h3{font-size: 20px;font-weight: 700;}
+.productDetail p{font-size: 17px;padding: 0px;margin: 0;}
+.productDetail p:nth-last-child(2){font-size: 15px;letter-spacing: -0.5px;margin-bottom: 10px;}
+.productDetail p span{color: #2d8f34;font-size: 20px;font-weight: 600;}
+.productDetail a{border:1px solid grey;padding: 8px 15px;color: #000000;border-radius: 15px;}
+.productDetail a:hover{text-decoration: none;color: black;background-color: #97f03e;}
+.productDetail a:focus{background-color: crimson;}
+.regitrationHeading{}
+.regitrationHeading h1, .aboutUsHeading h1{text-align: center;}
+.registrationForm{border-radius: 20px;border: 1px solid black;overflow: hidden;}
+.signUp{}
+.signUp form{padding: 30px;}
+.signUp legend{}
+.signUp input{padding: 15px 25px; border: none;margin-bottom: 5px;}
+.signUp input[type=submit]{padding: 10px 20px;border-radius: 5px;background-color: #1ce057; width: 100%;font-weight: 500;color: #202020;transition: .5s;}
+.signUp input[type=submit]:hover{background-color: #bfc2c0; color: #064118;}
+
+.signIn form{padding: 30px;}
+.signIn input{padding: 15px 25px; border: none;margin-bottom: 5px;}
+.signIn input[type=submit]{padding: 10px 20px;border-radius: 5px;background-color: #1ce057; width: 100%;font-weight: 500;color: #202020;transition: .5s;}
+.signIn input[type=submit]:hover{background-color: #bfc2c0; color: #064118;}
+.aboutUs{}
+.aboutUsTexes1{background: url(Images/IMG_2543.JPG) no-repeat scroll top center/cover;background-size: 80% 100%;transition: .5s;transform: scale(1);opacity: 1;cursor: pointer;}
+.aboutUsTexes2{background: url(Images/77030902_807509259710101_3731114763791368192_o.jpg) no-repeat scroll top center/cover;background-size: 80% 100%;transition: .5s;transform: scale(1);opacity: 1;cursor: pointer;}
+.aboutUsTexes3{background: url(Images/mahb.jpg) no-repeat scroll top center/cover;background-size: 80% 100%;transition: .5s;transform: scale(1);opacity: 1;cursor: pointer;}
+.aboutUsTexes1:hover{ transform:scale(1.2);opacity: .85;}
+.textes{margin-top: 250px;margin-bottom: 75px;text-align: center;}
+.aboutUsTexes2:hover{ transform:scale(1.2);opacity: .85;}
+.textes{margin-top: 250px;margin-bottom: 75px;text-align: center;}
+.aboutUsTexes3:hover{ transform:scale(1.2);opacity: .85;}
+.textes{margin-top: 250px;margin-bottom: 75px;text-align: center;}
+.textes a h3{color: #3bf1ab;}
+.textes h6{color: #fffbfb;font-weight: 600;background-color: crimson;display: inline-block;border-radius: 5px;padding:7px 12px;}
+.textes p{color: #ffffff;font-weight: 500;}
+.achieveHeading{margin: 50px 0px;}
+.achieveHeading h1{text-align: center;}
+.achieveHeading img{width: 60px;height: auto;}
+.imageContainer{margin: 0 auto;overflow: hidden;}
+.imageContainer .images{position: relative; width: 400%;margin: 0;;animation: 8s slideImages infinite;left: 0;}
+.imageContainer .images img{width: 25%;float: left;height: 35vw;}
+.footer{background-color: #39aaaa;margin-top: 20px;}
+.socialAccounts{overflow: hidden;text-align: center;}
+.socialAccounts ul{list-style: none;margin: 0;padding: 0;}
+.socialAccounts ul li{display: inline-block;margin: 20px 50px;}
+.socialAccounts ul li a{text-decoration: none;color: white;}
+.socialAccounts ul li a i{font-size: 30px;}
+.socialAccounts ul li a:hover{color: #10724c;}
+.products{overflow: hidden;margin-bottom: 60px;}
+.links,.about,.ContactUs{overflow: hidden;margin-bottom: 60px;}
+.products h3,.links h3,.about h3,.ContactUs h3{color: white;}
+.products ul,.links ul,.about ul ,.ContactUs ul {list-style: none;margin: 0;padding: 0;overflow: hidden;}
+.products ul li,.links ul li,.about ul l,.ContactUs ul li{}
+.products ul li a,.links ul li a,.about ul li a,.ContactUs ul li a{color: white;transition: .5s;}
+
+.clockArea{display: flex;justify-content: center;align-items: center;}
+.clock{width: 120px;height: 120px;border-radius: 50%;background: url(Images/clk.png);background-size: cover;position: relative;display: flex;justify-content: center;align-items: center;}
+.clock::before{content: '';position: absolute;width: 7px;height: 7px;border-radius: 50%;background-color: #f72b9b;}
+
+.hour,.minute,.second{position: absolute;}
+.hour{width: 60px;height: 60px;display: flex;justify-content: center;transform: rotate(0deg);}
+.hr{width: 4px;height: 30px;z-index: 10;background-color: tomato;border-radius: 2px 2px 0 0;}
+.minute{width: 90px;height: 90px;display: flex;justify-content: center;transform: rotate(0deg);}
+.mn{width: 2px;height: 45px;z-index: 11;background-color: #8b8b8b;border-radius: 2px 2px 0 0;}
+.second{width: 120px;height: 120px;display: flex;justify-content: center;transform: rotate(0deg);}
+.sc{width: 1px;height: 70px;background-color: teal}
+
+ul.bjqs {height:100%!important;border-radius: 0px 50px;}
+ul.bjqs-controls.v-centered li.bjqs-next a{padding: 10px 20px;background-color: #0ce66e}
+ul.bjqs-controls.v-centered li.bjqs-next a:hover{background-color: #ffebcd00;color: #5f5f5f;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{padding: 10px 20px;background-color: #0ce66e;}
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover{background-color: #ffebcd00;color: #5f5f5f;}
+li.bjqs-prev a{background:
+    orange;
+    padding: 15px;
+    text-decoration: none;
+    color:
+    white;}
+li.bjqs-prev a:hover {background:white; color:orange}
+li.bjqs-next a:hover {background:white; color:orange}
+li.bjqs-next a{background:
+    orange;
+    padding: 15px;
+    text-decoration: none;
+    color:
+    white;}
+li.bjqs-prev a{background:
+orange;
+padding: 15px;
+text-decoration: none;
+color:
+white;}
+li.bjqs-prev a:hover {background:white; color:orange}
+li.bjqs-next a:hover {background:white; color:orange}
+li.bjqs-next a{background:
+orange;
+padding: 15px;
+text-decoration: none;
+color:
+white;}
+ol.bjqs-markers li a{text-decoration: none;padding: 1px 7px;;background-color: blanchedalmond;border-radius: 50%;margin: 5px;}
+ol.bjqs-markers.h-centered {display: none;}
+
+@keyframes slideImages{
+    0%{left: 0%;}
+    25%{left: 0%;}
+    35%{left: -100%;}
+    60%{left: -100%;}
+    70%{left: -200%;}
+    95%{left: -200%;}
+    100%{left: -300%;}
+    
+}
